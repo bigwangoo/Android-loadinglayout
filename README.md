@@ -1,4 +1,4 @@
-# LoadingLayout
+# LoadingLayout [![](https://jitpack.io/v/bigwangoo/loadinglayout.svg)](https://jitpack.io/#bigwangoo/loadinglayout)
  
 多状态布局(content,loading,empty,error)   
 
@@ -10,7 +10,7 @@ repositories {
     maven { url "https://jitpack.io" }
 } 
 dependencies {
-    compile ''
+    compile 'com.github.bigwangoo:loadinglayout:1.0.0'
 }
 ```
 
@@ -32,7 +32,7 @@ dependencies {
 **用法一：在布局中使用**
 
 ``` xml  
-<...LoadingLayout
+<LoadingLayout
     android:id="@+id/loading"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
