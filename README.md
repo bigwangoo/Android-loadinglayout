@@ -10,6 +10,6 @@ repositories {
     maven { url "https://jitpack.io" }
 } 
 dependencies {
-    compile 'com.github.bigwangoo:loadinglayout:1.0.0'
+    implementation 'com.github.bigwangoo:loadinglayout:1.0.1'
 }
 ```
