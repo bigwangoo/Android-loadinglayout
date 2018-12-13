@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">loadinglayout</string>
+
+    <string name="hint_loading">正在加载...</string>
+    <string name="hint_empty">暂无相关数据</string>
+    <string name="hint_error_retry">加载失败，请重试</string>
+    <string name="hint_check_network">请检查网络连接</string>
+</resources>

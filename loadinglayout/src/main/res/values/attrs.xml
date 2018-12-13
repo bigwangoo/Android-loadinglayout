@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 加载状态布局 -->
+    <declare-styleable name="LoadingLayout">
+        <!--加载中布局-->
+        <attr name="ldl_loading_layout" format="reference" />
+        <attr name="ldl_loading_img" format="reference" />
+        <attr name="ldl_loading_tv" format="string" />
+        <!--空布局-->
+        <attr name="ldl_empty_layout" format="reference" />
+        <attr name="ldl_empty_img" format="reference" />
+        <attr name="ldl_empty_tv" format="string" />
+        <!--错误布局-->
+        <attr name="ldl_error_layout" format="reference" />
+        <attr name="ldl_error_img" format="reference" />
+        <attr name="ldl_error_tv" format="string" />
+        <!--无网络布局-->
+        <attr name="ldl_net_layout" format="reference" />
+        <attr name="ldl_net_img" format="reference" />
+        <attr name="ldl_net_tv" format="string" />
+    </declare-styleable>
+
+</resources>
